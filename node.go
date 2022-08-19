@@ -20,6 +20,7 @@ type Node struct {
 	RunList     []string `json:"run_list,omitempty"`
 	PolicyName  string   `json:"policy_name,omitempty"`
 	PolicyGroup string   `json:"policy_group,omitempty"`
+	Roles	[]string `json:"roles,omitempty"`
 }
 
 type NodeResult struct {
